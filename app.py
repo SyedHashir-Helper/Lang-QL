@@ -21,7 +21,7 @@ def generate(api_key, sql_type, user_input):
                         <SQL Table DDL Statements>
                         You are acting as a Database engineer. You are responsible for generating SQL Schema in {sql_type}.
 
-                        Response Should mention the {sql_type}. Don't include in sql code block.
+                        Response Should mention the {sql_type}. Don't include in code block.
                         """,
             }
         ],
