@@ -78,7 +78,6 @@ if st.session_state['generated_schema']:
 st.markdown("""
     <style>
         .stCodeBlock {
-            background-color: #272822;
             color: #f8f8f2;
             padding: 20px;
             border-radius: 5px;
