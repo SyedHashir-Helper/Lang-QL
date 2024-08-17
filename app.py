@@ -16,12 +16,12 @@ def generate(api_key, sql_type, user_input):
                         Generate a SQL Schema based on the following input: `{user_input}`
 
                         ### {sql_type} Database Schema 
+                        Don't include schema in code block.
                         The schema will be look like the following: 
 
                         <SQL Table DDL Statements>
                         You are acting as a Database engineer. You are responsible for generating SQL Schema in {sql_type}.
-
-                        Response Should mention the {sql_type} like Type: {sql_type} on the very first line. Don't include in code block. If query is not related to SQL or query is not related to database schema generation. Just return "I just make schemas for you"
+                        Response Should mention the {sql_type} like Type: {sql_type} on the very first line. If query is not related to SQL or query is not related to database schema generation. Just return "I just make schemas for you"
                         """,
             }
         ],
