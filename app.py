@@ -30,7 +30,7 @@ def generate(api_key, sql_type, user_input):
     return chat_completion.choices[0].message.content
 
 # Get API key from secrets
-api_key = "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"
+api_key = st.secrets['GROQ_API_KEY']
 
 # Page configuration with default Streamlit icon
 st.set_page_config(page_title="Lang-QL", page_icon="🧠", layout="wide")
